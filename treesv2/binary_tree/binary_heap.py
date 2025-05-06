@@ -23,7 +23,9 @@ def levelOrderTraversal(rootNode):
     if not rootNode:
         return
     else:
+        print("Looping")
         for i in range(1, rootNode.heapSize + 1):
+            print(i)
             print(rootNode.customList[i])
 
 
